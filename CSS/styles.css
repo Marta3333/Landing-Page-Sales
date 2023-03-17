@@ -108,9 +108,9 @@ div.card-footer{
   }
 }
 @media (max-width:575px){
-  div.card-body{
+  /* div.card-body{
     height: auto;
-  }
+  } */
   div.card-body.text{
     padding-bottom: 30px;
   }
@@ -122,5 +122,11 @@ div.card-footer{
   button.send_button{
     height: auto;
     font-size: 20px;
+  }
+  div.wrapper{
+    height: auto!important;
+  }
+  div.card-body{
+    height: auto!important;
   }
 }
