@@ -108,14 +108,17 @@ div.card-footer{
   }
 }
 @media (max-width:575px){
-  div.card-body{
+/*   div.card-body{
     height: auto;
-  }
+  } */
   div.card-body.text{
     padding-bottom: 30px;
   }
 }
 @media (max-width:600px){
+    div.card-body{
+    height: auto;
+  }
   h1.card-title{
     font-size: 40px;
   }
